@@ -33,9 +33,7 @@ class ResidentialManagement extends React.Component{
                         </div>
                         </div>
                         <div class="col-sm-8 ml-auto mt-5 col-md-6">
-                            <div class="px-5 ml-5 mt-5 px-sm-0">
                               <img style={{height: '500px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?cs=srgb&dl=pexels-terry-magallanes-2631746.jpg&fm=jpg" alt="..." />
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -48,9 +46,7 @@ class ResidentialManagement extends React.Component{
                     <div class="container-fluid px-5">
                         <div class="row gx-5 px-5 align-items-center justify-content-center">
                         <div class="col-sm-8 mr-auto mt-5 col-md-6">
-                            <div class="px-5 ml-5 mt-5 px-sm-0">
                               <img style={{height: '500px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?cs=srgb&dl=pexels-mark-mccammon-2724748.jpg&fm=jpg" alt="..." />
-                            </div>
                         </div>
                             <div class="col-12 col-lg-5">
                             <h2 class=" lh-1 mb-5 fw-bolder">Our Residential Management Services</h2>
