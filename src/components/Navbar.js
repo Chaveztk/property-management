@@ -36,7 +36,7 @@ class Header extends React.Component {
               <div class="collapse navbar-collapse" id="navbarResponsive">
                   <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                       {/*<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>*/}
-                      <Link to='/home'><li class="nav-item"><a class="nav-link" href="">Home</a></li></Link>
+                      <Link to='/'><li class="nav-item"><a class="nav-link" href="">Home</a></li></Link>
                       <Link to='/about'><li class="nav-item"><a class="nav-link" href="">About Us</a></li></Link>
                       <Link to='/contact'><li class="nav-item"><a class="nav-link" href="">Contact Us</a></li></Link>
                       <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
