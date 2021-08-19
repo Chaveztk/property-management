@@ -3,6 +3,7 @@ import HomeCards from '../components/containers/HomeCards.js';
 import Header from '../components/containers/Header.js';
 import FormContainer from '../components/containers/FormContainer.js';
 import ContactContainer from '../components/containers/ContactContainer.js';
+import { Link, withRouter } from 'react-router-dom';
 
 
 class Home extends React.Component {
@@ -51,15 +52,15 @@ class Home extends React.Component {
             highly valued to all our clients, tenants and landlords.</h3>
       </div>
       <div class="row">
-          <Link to='/residentialmanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+
                       <div class="">
 
                       </div>
-                      <img class="img-fluid" src="https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
-                  </a>
+                      <Link to='/residentialmanagement'>
+                        <img class="img-fluid" src="https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
+                      </Link>
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Residential Management</div>
                       <br />
@@ -67,15 +68,11 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
-          <Link to='/commercialmanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                      </div>
+                    <Link to='/commercialmanagement'>
                       <img class="img-fluid" src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
-                  </a>
+                    </Link>
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Commercial Management</div>
                       <br />
@@ -83,16 +80,11 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
-          </Link>
-          <Link to='/propertymanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                      </div>
+                    <Link to='/propertymanagement'>
                       <img class="img-fluid" src="https://images.pexels.com/photos/7031622/pexels-photo-7031622.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-7031622.jpg&fm=jpg" alt="..." />
-                  </a>
+                    </Link>
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Property Management</div>
                       <br />
@@ -100,15 +92,11 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
-          </Link>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                      </div>
+
                       <img class="img-fluid" src="https://images.pexels.com/photos/940829/pexels-photo-940829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
-                  </a>
+
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Compliance Management</div>
                       <br />
@@ -118,12 +106,8 @@ class Home extends React.Component {
           </div>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
-                  <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                      </div>
                       <img class="img-fluid" src="https://images.pexels.com/photos/937483/pexels-photo-937483.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
-                  </a>
+
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Legal</div>
                       <br />
@@ -134,9 +118,6 @@ class Home extends React.Component {
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                   <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                      <div class="portfolio-hover">
-                          <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                      </div>
                       <img class="img-fluid" src="https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="..." />
                   </a>
                   <div class="portfolio-caption">
