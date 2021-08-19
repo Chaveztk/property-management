@@ -45,7 +45,7 @@ class Home extends React.Component {
       <section class="page-section bg-light" id="portfolio">
   <div class="container">
       <div class="text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h2 class="section-heading text-uppercase"></h2>
           <h3 class="section-subheading">  It is Quoin Estate mission to help our clients from investment companies<br />
             to home owners across a vareity of buildings, from large blocks<br />
             of flats to converted terraced properties. The servies we offer are <br />
