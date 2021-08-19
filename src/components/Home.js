@@ -51,6 +51,7 @@ class Home extends React.Component {
             highly valued to all our clients, tenants and landlords.</h3>
       </div>
       <div class="row">
+          <Link to='/residentialmanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                   <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -66,6 +67,7 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
+          <Link to='/commercialmanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                   <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -81,6 +83,8 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
+          </Link>
+          <Link to='/propertymanagement'>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                   <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -96,6 +100,7 @@ class Home extends React.Component {
                   </div>
               </div>
           </div>
+          </Link>
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                   <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
