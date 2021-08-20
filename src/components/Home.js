@@ -46,7 +46,7 @@ class Home extends React.Component {
   <div class="container">
       <div class="text-center">
           <h2 class="section-heading text-uppercase"></h2>
-          <h3 class="section-subheading">  It is Quoin Estate mission to help our clients from investment companies<br />
+          <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
             to home owners across a vareity of buildings, from large blocks<br />
             of flats to converted terraced properties. The servies we offer are <br />
             highly valued to all our clients, tenants and landlords.</h3>
@@ -151,11 +151,12 @@ class Home extends React.Component {
 
 <ContactContainer />
 
-
 <FormContainer
-subText='Tell us your requirements'
+subText='Were here to help'
+handleChange={this.handleChange}
+handleSubmit={this.handleSubmit}
+{...this.state}
 />
-
 
 
 

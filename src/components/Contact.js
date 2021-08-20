@@ -35,13 +35,13 @@ class Contact extends React.Component {
 // });
 //   }
 
-  handleSubmit() {
-    this.setState({ action: 'https://formspree.io/f/mjvjaqbn'})
-  }
 
   handleChange(event) {
     const {name, value} = event.target
     this.setState({ [name]: value})
+  }
+  handleSubmit(event) {
+    this.setState({ action: 'https://formspree.io/f/xzbykkpd'})
   }
 
   render() {
@@ -62,7 +62,6 @@ class Contact extends React.Component {
     midText='Take your first step to better property management — Get in touch now.'
     handleChange={this.handleChange}
     handleSubmit={this.handleSubmit}
-    sweetalert={this.sweetalert}
     {...this.state}
     />
 

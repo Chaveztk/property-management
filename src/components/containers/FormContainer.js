@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 function FormContainer(props) {
   return(
     <form class="column is-half" onSubmit={props.handleSubmit} method={props.method} action={props.action}>
@@ -9,7 +11,7 @@ function FormContainer(props) {
             <h2 class="section-heading text-uppercase">Contact Us</h2>
             <h3 class="section-subheading text-muted">{props.subText}</h3>
         </div>
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form id="contactForm">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
