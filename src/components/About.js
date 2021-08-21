@@ -50,7 +50,7 @@ class About extends React.Component {
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Head Management Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted"></h3>
         </div>
         <div class="row">
             <div class="col-lg-4">
@@ -68,9 +68,6 @@ class About extends React.Component {
                     <img class="mx-auto rounded-circle" src="https://images.pexels.com/photos/1138903/pexels-photo-1138903.jpeg?cs=srgb&dl=pexels-mentatdgt-1138903.jpg&fm=jpg" alt="..." />
                     <h4>Harry Wilson</h4>
                     <p class="text-muted">Commercial Manager</p>
-                    {/*<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-linkedin-in"></i></a>*/}
                 </div>
             </div>
             <div class="col-lg-4">
@@ -78,9 +75,6 @@ class About extends React.Component {
                     <img class="mx-auto rounded-circle" src="https://images.pexels.com/photos/7468194/pexels-photo-7468194.jpeg?cs=srgb&dl=pexels-rodnae-productions-7468194.jpg&fm=jpg" alt="..." />
                     <h4>Jennifer Rose</h4>
                     <p class="text-muted">Property Manager</p>
-                    {/*<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-linkedin-in"></i></a>*/}
                 </div>
             </div>
         </div>
