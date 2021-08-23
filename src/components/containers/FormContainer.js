@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 function FormContainer(props) {
   return(
     <form class="column is-half" onSubmit={props.handleSubmit} method={props.method} action={props.action}>

@@ -47,9 +47,9 @@ class Home extends React.Component {
       <div class="text-center">
           <h2 class="section-heading text-uppercase"></h2>
           <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
-            to home owners across a vareity of buildings, from large blocks<br />
-            of flats to converted terraced properties. The servies we offer are <br />
-            highly valued to all our clients, tenants and landlords.</h3>
+            to home owners across a variety of buildings, from large blocks<br />
+            of flats to converted terraced properties. The services we offer are <br />
+            highly valued by all our clients, tenants and landlords.</h3>
       </div>
       <div class="row">
           <div class="col-lg-4 col-sm-6 mb-4">
@@ -64,7 +64,7 @@ class Home extends React.Component {
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Residential Management</div>
                       <br />
-                      <div class="portfolio-caption-subheading text-muted">Its within the Quoin Management teams care that our clients premises remains maintained to a high rated standard for the safe secuirty of residents.</div>
+                      <div class="portfolio-caption-subheading text-muted">It is within the Quoin Management teams care that our clients premises remain maintained to an excellent standard for the safe security of residents.</div>
                   </div>
               </div>
           </div>
@@ -76,7 +76,7 @@ class Home extends React.Component {
                   <div class="portfolio-caption">
                       <div class="portfolio-caption-heading">Commercial Management</div>
                       <br />
-                      <div class="portfolio-caption-subheading text-muted">Quoin commercial department endeavor to make sure that our clients reach maximum potential using a personalised tailored plan specially designed by our team of experts.</div>
+                      <div class="portfolio-caption-subheading text-muted">Quoins commercial Department endeavors to make sure that our clients reach maximum potential using a personalised tailored plan specially designed by our team of experts.</div>
                   </div>
               </div>
           </div>

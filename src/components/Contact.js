@@ -5,6 +5,7 @@ import FormContainer from '../components/containers/FormContainer.js';
 import ContactContainer from '../components/containers/ContactContainer.js';
 import Header from '../components/containers/Header.js';
 
+
 class Contact extends React.Component {
 
   constructor() {
@@ -41,7 +42,7 @@ class Contact extends React.Component {
     this.setState({ [name]: value})
   }
   handleSubmit(event) {
-    this.setState({ action: 'https://formspree.io/f/xzbykkpd'})
+    this.setState({ action: 'https://formspree.io/f/mwkawabp'})
   }
 
   render() {
