@@ -62,7 +62,7 @@ class Home extends React.Component {
                         <img class="img-fluid" src="https://images.pexels.com/photos/3935350/pexels-photo-3935350.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
                       </Link>
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Residential Management</div>
+                      <div class="portfolio-caption-heading fw-bold">Residential Management</div>
                       <br />
                       <div class="portfolio-caption-subheading text-muted">It is within the Quoin Management teams care that our clients premises remain maintained to an excellent standard for the safe security of residents.</div>
                   </div>
@@ -74,9 +74,9 @@ class Home extends React.Component {
                       <img class="img-fluid" src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
                     </Link>
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Commercial Management</div>
+                      <div class="portfolio-caption-heading fw-bold">Commercial Management</div>
                       <br />
-                      <div class="portfolio-caption-subheading text-muted">Quoins commercial Department endeavors to make sure that our clients reach maximum potential using a personalised tailored plan specially designed by our team of experts.</div>
+                      <div class="portfolio-caption-subheading text-muted">Quoin commercial department endeavor to make sure that our clients reach maximum potential using a personalised tailored plan specially designed by our team of experts.</div>
                   </div>
               </div>
           </div>
@@ -86,7 +86,7 @@ class Home extends React.Component {
                       <img class="img-fluid" src="https://images.pexels.com/photos/7031622/pexels-photo-7031622.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-7031622.jpg&fm=jpg" alt="..." />
                     </Link>
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Property Management</div>
+                      <div class="portfolio-caption-heading fw-bold">Property Management</div>
                       <br />
                       <div class="portfolio-caption-subheading text-muted">We stand by our policy for the peace of our clients, working together with all parties to know the building in-depth, ensuring all aspects of the building are covered.</div>
                   </div>
@@ -98,7 +98,7 @@ class Home extends React.Component {
                       <img class="img-fluid" src="https://images.pexels.com/photos/940829/pexels-photo-940829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
 
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Compliance Management</div>
+                      <div class="portfolio-caption-heading fw-bold">Compliance Management</div>
                       <br />
                       <div class="portfolio-caption-subheading text-muted">Its within the Quoin Management teams care that our clients premises remains maintained to a high rated standard for the safe secuirty of residents.</div>
                   </div>
@@ -109,7 +109,7 @@ class Home extends React.Component {
                       <img class="img-fluid" src="https://images.pexels.com/photos/937483/pexels-photo-937483.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
 
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Legal</div>
+                      <div class="portfolio-caption-heading fw-bold">Legal</div>
                       <br />
                       <div class="portfolio-caption-subheading text-muted">Quoin commercial department endeavor to make sure that our clients reach maximum potential using a personalised tailored plan specially designed by our team of experts.</div>
                   </div>
@@ -121,7 +121,7 @@ class Home extends React.Component {
                       <img class="img-fluid" src="https://images.pexels.com/photos/48148/document-agreement-documents-sign-48148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="..." />
                   </a>
                   <div class="portfolio-caption">
-                      <div class="portfolio-caption-heading">Property Management</div>
+                      <div class="portfolio-caption-heading fw-bold">Property Management</div>
                       <br />
                       <div class="portfolio-caption-subheading text-muted">We stand by our policy for the peace of our clients, working together with all parties to know the building in-depth, ensuring all aspects of the building are covered.</div>
                   </div>
