@@ -33,11 +33,12 @@ class About extends React.Component {
                         <div class="fs-5 mb-5">
                         </div>
                         <div class='lead'>
-                          <p>Our experties at Quoin Management have been providing professional estate management services all over the UK since 2008.</p>
+                          <p>Our experts at Quoin Management have been providing professional estate management services all over the UK since 2008.</p>
                           <br />
-                          <p>First starting in London expanding broadly across the UK, we at Quoin management have now become an online management company diversing the value we bring towards other clients across the UK.    </p>
+
+                          <p>First starting in London and then expanding widely across the UK, we at Quoin management have now become an online management company increasing the value we bring for our clients across the UK.    </p>
                           <br />
-                          <p>Quoin Management is based on making sure you keep an integrity of mind. This is a common practice here at Quoin management which goes out to all our clients including tenants giving you a personal touch of secuirty.</p>
+                          <p>One of Quoin Managements core principles is ensuring you have peace of mind. This core principle is achieved by the personal touch that all our clients receive.</p>
                         </div>
                     </div>
                     <img  style={{height: '500px', width:'500px'}} src="https://images.pexels.com/photos/5847587/pexels-photo-5847587.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />

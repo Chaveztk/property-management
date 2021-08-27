@@ -17,7 +17,7 @@ function ContactContainer() {
                     <div class="col-12 col-lg-5">
                     <p class='lead'><br />The strength of our company is in that we're an online run management company, this has given us the ability to communicate with our clientle more effectively across the UK.
                     <br />
-                    Our team work after hours ensuring our clients have the most of their comfort. As a new customer, our team at Quoin management would be glad to answer any of your requests. Please use the form below or send us an email to get in touch.</p>
+                    Our team work 24/7 ensuring our clients can rest assured that their property is in safe hands. As a new customer, our team at Quoin management would be glad to answer any of your requests. Please use the form below or send us an email to get in touch.</p>
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <Google />

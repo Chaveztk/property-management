@@ -25,9 +25,9 @@ class CommercialManagement extends React.Component{
                         <div class=' fw-normal text-muted mb-5 mb-lg-0'>
                         <p>Our commercial services to landlords include a variety ranging from shops, industrial units to mixed-used   properties.
                           <br/>
-                          Quoin Management understand that dealing with issues such as rent arrears and tenants following to meet the lease agreement in place can be challenging. With Quoin Managements experienced commercial property team we are confident in giving the best adivce to our clients on how to deal with these issues at hand.<br/><br/>
+                          Quoin Management understands that dealing with issues such as rent arrears and tenants failing to meet the lease agreement in place can be challenging. With Quoin Managements experienced commercial property team we are confident in giving the best advice to our clients on how to deal with these issues at hand.<br/><br/>
                           We stay on top of our timed scheduled visits and general maintenance to make sure all problems as well as building issues can be dealt with efficiently at a lower cost.
-                          We understand that every client has different needs. Thats what makes the service here at Quoin successful because we work round the clock to enable the satisfaction of our clients.
+                          We understand that every client has different needs. That is what makes the service here at Quoin successful because we work round the clock to enable the satisfaction of our clients.
                         </p>
                         </div>
                         </div>

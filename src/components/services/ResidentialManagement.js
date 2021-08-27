@@ -21,12 +21,12 @@ class ResidentialManagement extends React.Component{
                         <div class="col-12 col-lg-5">
                         <h2 class=" lh-1 mb-5 fw-bolder">Quoin residential management For Your Property Needs</h2>
                         <div class=' fw-normal text-muted mb-5 mb-lg-0'>
-                        <p>As one of online's most diverse professional serviced property management companies, we pride ourselves in the value we bring towards clients as well as tenants. The loyalty built with our tenants brings longer term tenancy which is beneficial towards maximising our clients return on investments.</p>
+                        <p>As one of online's most diverse professional serviced property management companies, we pride ourselves in the value we bring towards clients as well as tenants. The loyalty built with our tenants brings longer term tenancies which is beneficial towards maximising our clients return on investments.</p>
                         <br />
                         <p>
                         No matter the condition of the property we are confident Quoin Management can help. From refurbishment to meeting legal guidlines Quoin will have you covered.
 
-                        We understand that there can be issues that can arise, but with our local team and contractors we do regular property checks to  avoid many costly maintenance issues. Quoin Emergency team are available 24hrs a day for the general safety of our clients and tenants.
+                        We understand that there can be issues that can arise, but with our local teams and contractors we do regular property checks to  avoid many costly maintenance issues. Quoin Emergency teams are available 24 hours a day for the general safety of our clients and tenants.
                         <br/>
                         <br/>
                         We send our clients catered statements that shows where and when rent was collected and fixtures/replacements to the property keeping clients updated to have a full hands-off experience.</p>
@@ -51,7 +51,7 @@ class ResidentialManagement extends React.Component{
                             <div class="col-12 col-lg-5">
                             <h2 class=" lh-1 mb-5 fw-bolder">Our Residential Management Services</h2>
                             <div class=' fw-normal text-muted mb-5 mb-lg-0'>
-                            <p>Clients know our Residential management team best for creating a bond with their property. Our regular overseen supervision of the property keeps your building to its highest standard which enables current tenants to feel secure.</p>
+                            <p>Clients know our Residential management team strives to ensure that clients properties are looked after as if it was their own. Our regular supervision of the property keeps your building to its highest standard which enables current tenants to feel secure.</p>
                             <br />
                             <p>Our services include:
                               <ul>

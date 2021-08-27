@@ -22,8 +22,8 @@ class PropertyManagement extends React.Component{
                       <div class="col-12 col-lg-5">
                       <h2 class=" lh-1 mb-5 fw-bolder">Big or small we have a list of properties under management.</h2>
                       <div class=' fw-normal text-muted mb-5 mb-lg-0'>
-                      <p>When it come to our property block management or the management of our clients units, we specialise in having all managed sites to be customised to suit their individual needs.  Quion management has grown successfully over the years with our key knowledge in property and experience in learning to adopt and adapt through the personal growth between ourseleves and our clients.
-                      We keep close attention to detail making sure you are always kept updated with all legislation and changes that can affect you and your property assests.</p>
+                      <p>When it come to our property block management or the management of our clients units, we specialise in having all managed sites to be customised to suit their individual needs.  Quion management has grown successfully over the years with our key knowledge in property and experience in learning to adopt and adapt through the personal growth between ourselves and our clients.
+                      We pay close attention to detail making sure you are always kept updated with all legislation and changes that can affect you and your property assests.</p>
                       <br />
                       <p>
                       We have a detailed understanding of the complex laws that can affect property owners and as a firm of Chartered Surveyors, we have the additional benefit of understanding the technical issues involved in building construction and property maintenance.</p>
