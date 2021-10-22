@@ -3,14 +3,14 @@ import React from 'react';
 
 function FormContainer(props) {
   return(
-    <form class="column is-half" onSubmit={props.handleSubmit} method={props.method} action={props.action}>
+    <form class="column is-half" onSubmit={props.handleSubmit}>
     <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
             <h3 class="section-subheading text-muted">{props.subText}</h3>
         </div>
-        <form id="contactForm">
+        <form id="contactForm" action="https://formspree.io/f/mwkawabp" method = "post">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">

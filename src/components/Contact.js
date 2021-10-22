@@ -12,7 +12,7 @@ class Contact extends React.Component {
     super();
     this.state = {
       name: '',
-      action: '',
+      action: 'https://formspree.io/f/mwkawabp',
       method: 'POST',
       telephone: '',
       email: '',
@@ -42,7 +42,7 @@ class Contact extends React.Component {
     this.setState({ [name]: value})
   }
   handleSubmit(event) {
-    this.setState({ action: 'https://formspree.io/f/mwkawabp'})
+    this.setState({ action: 'https://formspree.io/f/mwkawabp', method: 'post'})
   }
 
   render() {
