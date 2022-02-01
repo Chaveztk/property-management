@@ -38,11 +38,17 @@ class Home extends React.Component {
       <div>
 
 
+      <div>
+        <Header
+          title='Quoin Estate Management'
+          subheading=''
+        />
+
+      </div>
 
 
 
-
-<header>
+{/*<header>
   <div
           class="p-5 text-center bg-image opacity-75"
           style={{backgroundImage: 'url(https://mdbootstrap.com/img/Photos/Others/images/76.jpg)', height: '100vh'}}>
@@ -56,7 +62,7 @@ class Home extends React.Component {
 
           <div class="align-self-center px-4 text-center">
           <h1 class="fw-bolder">Quoin Estate Management</h1>
-          {/*<p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>*/}
+          <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
 
 
         </div>
@@ -69,7 +75,7 @@ class Home extends React.Component {
                   highly valued by all our clients, tenants and landlords.</h3>
             </div>
             </div>
-          {/*<form class=" bg-primary rounded-3 p-4 p-sm-5 mt-5">
+          <form class=" bg-primary rounded-3 p-4 p-sm-5 mt-5">
               <div class="col align-self-center">
                   <div class="mb-4 mb-xl-0">
                     <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
@@ -83,13 +89,13 @@ class Home extends React.Component {
                     <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                   </div>
               </div>
-          </form>*/}
+          </form>
         </div>
       </div>
       </div>
 
   </div>
-</header>
+</header>*/}
 
 
 <form class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -144,13 +150,13 @@ class Home extends React.Component {
 
       <section class="page-section bg-light" id="portfolio">
   <div class="container">
-      {/*<div class="text-center">
+      <div class="text-center">
           <h2 class="section-heading text-uppercase"></h2>
           <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
             to home owners across a variety of buildings, from large blocks<br />
             of flats to converted terraced properties. The services we offer are <br />
             highly valued by all our clients, tenants and landlords.</h3>
-      </div>*/}
+      </div>
       <div class="row">
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
