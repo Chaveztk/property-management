@@ -38,19 +38,119 @@ class Home extends React.Component {
       <div>
 
 
-      <Header
-        title='Quoin Property Management'
-       />
+
+
+
+
+<header>
+  <div
+          class="p-5 text-center bg-image opacity-75"
+          style={{backgroundImage: 'url(https://mdbootstrap.com/img/Photos/Others/images/76.jpg)', height: '100vh'}}>
+
+
+      <div class="d-flex align-items-center h-100">
+
+
+      <div class="container">
+        <div class="row">
+
+          <div class="align-self-center px-4 text-center">
+          <h1 class="fw-bolder">Quoin Estate Management</h1>
+          {/*<p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>*/}
+
+
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase"></h2>
+                <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
+                  to home owners across a variety of buildings, from large blocks<br />
+                  of flats to converted terraced properties. The services we offer are <br />
+                  highly valued by all our clients, tenants and landlords.</h3>
+            </div>
+            </div>
+          {/*<form class=" bg-primary rounded-3 p-4 p-sm-5 mt-5">
+              <div class="col align-self-center">
+                  <div class="mb-4 mb-xl-0">
+                    <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
+                    <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+                  </div>
+                  <div class="ms-xl-4">
+                    <div class="input-group mb-2">
+                      <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+                      </div>
+                    <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+                  </div>
+              </div>
+          </form>*/}
+        </div>
+      </div>
+      </div>
+
+  </div>
+</header>
+
+
+<form class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name"/>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">What is the best email for you?</label>
+            <input type="text" class="form-control" id="recipient-name"/>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Post Code:</label>
+            <input type="text" class="form-control" id="recipient-name"/>
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Bulding number:</label>
+            <input type="text" class="form-control" id="recipient-name"/>
+          </div>
+
+          <div class="mb-3">
+            <label for="" class="form-label">What type of building is it?</label>
+            <select id="" class="form-select">
+            <option>Select</option>
+              <option>House</option>
+              <option>Flat</option>
+              <option>Bungalow</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</form>
 
       <section class="page-section bg-light" id="portfolio">
   <div class="container">
-      <div class="text-center">
+      {/*<div class="text-center">
           <h2 class="section-heading text-uppercase"></h2>
           <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
             to home owners across a variety of buildings, from large blocks<br />
             of flats to converted terraced properties. The services we offer are <br />
             highly valued by all our clients, tenants and landlords.</h3>
-      </div>
+      </div>*/}
       <div class="row">
           <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
@@ -135,18 +235,52 @@ class Home extends React.Component {
 
 
 
-<header class="bg-dark py-5 bg-image-full">
-  <div class="container px-5">
-      <div class="row gx-5 align-items-center justify-content-center">
-          <div class="col-lg-8 col-xl-7 col-xxl-6">
-              <div class="my-5 text-center text-xl-start">
-                  <h1 class="display-5 fw-bolder text-white mb-2">Why Quoin Management?</h1>
-                  <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"></div>
-              </div>
+{/*<div
+        class="p-5 text-center bg-image"
+        style={{backgroundColor: '#1F1F1F', height: '100vh'}}>
+        <header class="text-white">
+            <div class="container-fluid px-4 text-center">
+                <h1 class="fw-bolder">Agent Details</h1>
+                <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non <br/> aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+            </div>
+
+        <div class="container">
+          <div class="row">
+
+            <div class="col-6 col-sm-3">
+              <img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/250x350/343a40/6c757d" alt="..." />
+
+            </div>
+            <div class="col-md-6 offset-md-0">
+            <h2 class="fw-bolder text-start">Growth &amp; beyond</h2>
+              <p class="lead text-start mb-0">
+              Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.
+              </p>
+              <br/>
+              <p class="lead text-start mb-0">
+              Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.
+              </p>
+            </div>
+
+            <div class="col-6 col-sm-3">
+              <ul class="list-group list-group-flush">
+                <li class="">support@sitename.com</li>
+                <hr/>
+                <li class=""> www.sitename.com</li>
+                <hr/>
+                <li class="">+1 232 444 55 66</li>
+                <hr/>
+                <li class=""> facebook.com/tagline</li>
+                <hr/>
+                <li class="">twitter.com/tagline</li>
+              </ul>
+            </div>
+
+
           </div>
-      </div>
-  </div>
-</header>
+        </div>
+        </header>
+</div>*/}
 
 
 <ContactContainer />

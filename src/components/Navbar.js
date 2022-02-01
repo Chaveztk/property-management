@@ -37,6 +37,8 @@ class Header extends React.Component {
                   <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                       {/*<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>*/}
                       <Link to='/'><li class="nav-item"><a class="nav-link" href="">Home</a></li></Link>
+                      <Link to='/login'><li class="nav-item"><a class="nav-link" href="">Log In</a></li></Link>
+
                       <Link to='/about'><li class="nav-item"><a class="nav-link" href="">About Us</a></li></Link>
                       <Link to='/contact'><li class="nav-item"><a class="nav-link" href="">Contact Us</a></li></Link>
                       <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>

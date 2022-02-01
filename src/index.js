@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 import './assets/css/styles.css';
 import './assets/css/bootstrap.min.css';
 import './assets/css/agency.min.css';
+// @import '~mdb-ui-kit/css/mdb.min.css';
+
 
 
 ReactDOM.render(
