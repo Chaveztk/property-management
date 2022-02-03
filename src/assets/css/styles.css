@@ -5,3 +5,15 @@
 /* .px-5{
   padding: unset !important;
 } */
+
+@media (max-width: 981px) {
+.mr-auto,  .ml-auto {
+margin-right: auto !important;
+margin-left: auto !important;
+  }
+}
+
+.img-fluid {
+  height: inherit;
+  width: inherit;
+}

@@ -33,7 +33,7 @@ class CommercialManagement extends React.Component{
                         </div>
                         <div class="col-sm-8 ml-auto mt-5 col-md-6">
                             {/*<div class="px-5 ml-5 mt-5 px-sm-0">*/}
-                              <img style={{height: '500px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/3639504/pexels-photo-3639504.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
+                              <img style={{height: '300px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/3639504/pexels-photo-3639504.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ class CommercialManagement extends React.Component{
                         <div class="row gx-5 px-5 align-items-center justify-content-center">
                         <div class="col-sm-8 mr-auto mt-5 col-md-6">
                             {/*<div class="px-5 ml-5 mt-5 px-sm-0">*/}
-                              <img style={{height: '500px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/5847587/pexels-photo-5847587.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
+                              <img style={{height: '300px', width:'500px'}} class="img-fluid rounded" src="https://images.pexels.com/photos/5847587/pexels-photo-5847587.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="..." />
                         </div>
                             <div class="col-12 col-lg-5">
                             <h2 class=" lh-1 mb-5 fw-bolder">Our commercial property management service includes:</h2>

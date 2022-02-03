@@ -37,7 +37,6 @@ class Home extends React.Component {
     return(
       <div>
 
-
       <div>
         <Header
           title='Quoin Estate Management'
@@ -45,6 +44,7 @@ class Home extends React.Component {
         />
 
       </div>
+
 
 
 
@@ -61,20 +61,11 @@ class Home extends React.Component {
         <div class="row">
 
           <div class="align-self-center px-4 text-center">
-          <h1 class="fw-bolder">Quoin Estate Management</h1>
+          <h1 class="fw-bolder">Sell your property with Quoin Estates</h1>
           <p class="lead">A functional Bootstrap 5 boilerplate for one page scrolling websites</p>
 
 
         </div>
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase"></h2>
-                <h3 class="section-subheading">  It is Quoin Estates mission to help our clients from investment companies<br />
-                  to home owners across a variety of buildings, from large blocks<br />
-                  of flats to converted terraced properties. The services we offer are <br />
-                  highly valued by all our clients, tenants and landlords.</h3>
-            </div>
-            </div>
           <form class=" bg-primary rounded-3 p-4 p-sm-5 mt-5">
               <div class="col align-self-center">
                   <div class="mb-4 mb-xl-0">
