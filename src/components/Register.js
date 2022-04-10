@@ -10,16 +10,16 @@ class Register extends React.Component {
 
   render() {
     return(
-      <section class="vh-100" style={{backgroundColor: '#508bfc'}}>
-        <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-              <div class="card shadow-2-strong" style={{borderRadius: '1rem'}}>
-                <div class="card-body p-5 text-center">
+      <section className="vh-100" style={{backgroundColor: '#508bfc'}}>
+        <div className="container py-5 h-100">
+          <div className="row d-flex justify-content-center align-items-center h-100">
+            <div className="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div className="card shadow-2-strong" style={{borderRadius: '1rem'}}>
+                <div className="card-body p-5 text-center">
 
-                  <h3 class="mb-5">Sign in</h3>
+                  <h3 className="mb-5">Sign in</h3>
 
-                  <div class="form-outline mb-4">
+                  <div className="form-outline mb-4">
                     <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
                     <label class="form-label" for="typeEmailX-2">Email</label>
                   </div>
@@ -44,8 +44,8 @@ class Register extends React.Component {
 
                   <hr class="my-4" />
 
-                  <button class="btn btn-lg btn-block btn-primary" style={{backgroundColor: '#dd4b39'}} type="submit"><i class="fab fa-google "></i> Sign in with google</button>
-                  <button class="btn btn-lg btn-block btn-primary mb-2" style={{backgroundColor: '#3b5998'}} type="submit"><i class="fab fa-facebook-f me-2"></i>Sign in with facebook</button>
+                  <button class="btn btn-lg btn-block btn-primary" style={{backgroundColor: '#dd4b39'}} type="submit"><i class="fa fa-google "/> Sign in with google</button>
+                  <button class="btn btn-lg btn-block btn-primary mb-2" style={{backgroundColor: '#3b5998'}} type="submit"><i class="fa fa-facebook-f me-2"/>Sign in with facebook</button>
 
                 </div>
               </div>

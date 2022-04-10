@@ -1,70 +1,55 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 
 
 class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      headerOpen: false,
-      user: {}
+    constructor() {
+        super();
+        this.state = {
+            headerOpen: false,
+            user: {}
+        }
+        this.toggleHeader = this.toggleHeader.bind(this)
     }
-    this.toggleHeader = this.toggleHeader.bind(this)
-  }
 
-  toggleHeader() {
-    this.setState({ headerOpen: !this.state.headerOpen })
-  }
+    toggleHeader() {
+        this.setState({headerOpen: !this.state.headerOpen})
+    }
 
-  componentDidUpdate(prevProps) {
-    // console.log(prevProps);
-    if(prevProps.headerOpen !== this.headerOpen) {
-    this.setState({ headerOpen: true });
+    componentDidUpdate(prevProps) {
+        // console.log(prevProps);
+        if (prevProps.headerOpen !== this.headerOpen) {
+            this.setState({headerOpen: true});
 
+        }
+    }
+
+    render() {
+        return (
+            <Navbar bg="dark" variant='dark' fixed='top' expand="lg" id="mainNav">
+                <div className="container px-4">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav">Menu<i
+                        className="fa fa-bars ml-1"/></Navbar.Toggle>
+                    <Navbar.Collapse id="navbarResponsive">
+                        <Nav className="text-uppercase ml-auto py-4 py-lg-0">
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/login">Log In</Nav.Link>
+                            <Nav.Link href="/about">About Us</Nav.Link>
+                            <Nav.Link href="/contact">Contact Us</Nav.Link>
+                            <Nav.Link href="/about#team">Team</Nav.Link>
+                            <NavDropdown alignRight={true} title="Services" id="navbarDropdownBlog">
+                                <NavDropdown.Item href="/residentialmanagement">Residential
+                                    Management</NavDropdown.Item>
+                                <NavDropdown.Item href="/propertymanagement">Property Management</NavDropdown.Item>
+                                <NavDropdown.Item href="/commercialmanagement">Commercial Management</NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                    </Navbar.Collapse>
+                </div>
+            </Navbar>
+        )
+    }
 }
-}
-  render() {
-    return(
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-          <div class="container px-4">
-
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                  Menu
-                  <i class="fa fa-bars ms-1"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                  <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                      {/*<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>*/}
-                      <Link to='/'><li class="nav-item"><a class="nav-link" href="">Home</a></li></Link>
-                      <Link to='/login'><li class="nav-item"><a class="nav-link" href="">Log In</a></li></Link>
-
-                      <Link to='/about'><li class="nav-item"><a class="nav-link" href="">About Us</a></li></Link>
-                      <Link to='/contact'><li class="nav-item"><a class="nav-link" href="">Contact Us</a></li></Link>
-                      <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-
-
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                        <Link to ='/residentialmanagement' class="dropdown-item"><li>Residential Management</li></Link>
-                        <Link to ='/propertymanagement' class="dropdown-item"><li>Property Management</li></Link>
-                        <Link to ='/commercialmanagement' class="dropdown-item"><li>Commercial Management</li></Link>
-                      </ul>
-                      </li>
-
-
-                  </ul>
-
-              </div>
-          </div>
-        </nav>
-      </div>
-    )
-  }
-}
-
-
 
 
 export default Header

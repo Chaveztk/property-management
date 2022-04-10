@@ -1,0 +1,74 @@
+// Core variables and mixins
+@import "base/variables.scss";
+@import '~bootstrap/scss/bootstrap';
+@import "base/mixins.scss";
+
+// Global CSS
+@import "base/page.scss";
+
+// Components
+@import "components/buttons.scss";
+@import "components/navbar.scss";
+
+// Layout
+@import "layout/masthead.scss";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/timeline.scss";
+@import "layout/team.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 53px;
+  @at-root {
+    @include media-breakpoint-up('lg') {
+      & {
+        padding-top: 103px;
+      }
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.header-img {
+  position: relative;
+  height: 100vh;
+  @include media-breakpoint-down('sm') {
+    height: auto;
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-image: url('../assets/img/76.jpg');
+    background-size: cover;
+    background-position: center center;
+    opacity: .75;
+  }
+}
+
+@each $index, $size in $font-sizes {
+  .fs-#{$index} {
+    font-size: $size;
+  }
+}

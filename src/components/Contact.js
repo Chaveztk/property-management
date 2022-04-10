@@ -83,11 +83,11 @@ export default Contact;
 
 
 // <section>
-// <h1 class="sub-heading" style={{}}>What makes us different from other property buyers?</h1>
-//   <div class='container' style={{marginTop: '150px', marginLeft: '300px'}}>
-//     <div class="columns is-vcentered form-column">
-//       <div class="put-to-top column is-8">
-//         <div id="text-249-1-0-0" class="module module-text text-249-1-0-0  repeat  " data-id="27d402a">
+// <h1 className="sub-heading" style={{}}>What makes us different from other property buyers?</h1>
+//   <div className='container' style={{marginTop: '150px', marginLeft: '300px'}}>
+//     <div className="columns is-vcentered form-column">
+//       <div className="put-to-top column is-8">
+//         <div id="text-249-1-0-0" className="module module-text text-249-1-0-0  repeat  " data-id="27d402a">
 //
 //           <h1><b>Sell Property for Cash</b></h1>
 //           <p>Whether you need to sell to move to a new property or you want to avoid repossession you can sell a property for cash in as little as seven days. You won’t have the stress of worrying about buyers pulling out or the worry of the buyer’s funding falling through. NPT is a cash buyer which means that we don’t use a mortgage and we have no chain; we can work with your deadlines and can even complete the process so that you have money from the sale in your bank account in as little as 7 days.</p>
