@@ -58,7 +58,7 @@ class About extends React.Component {
                             <div className="col-lg-4">
                                 <div className="team-member">
                                     <img className="mx-auto rounded-circle"
-                                         src="https://i.pravatar.cc/300?img=7"
+                                         src="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?cs=srgb&dl=pexels-mentatdgt-937481.jpg&fm=jpg"
                                          alt="..."/>
                                     <h4>Michael Chen</h4>
                                     <p className="text-muted">Residential Manager</p>

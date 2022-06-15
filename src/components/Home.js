@@ -19,19 +19,19 @@ function Home() {
                             <div className="row">
                                 <div className="col">
                                     <div className="my-5 text-center">
-                                        <h1 className="display-5 font-weight-bolder text-white mb-2">Quoin
+                                        <h1 className="display-4 font-weight-bolder text-white mb-2">Quoin
                                             Management</h1>
-                                        <p className="lead font-weight-normal text-white-50 mb-4">Chosen for our
+                                        <p className="lead font-weight-bolder text-white mb-4">Chosen for our
                                             service. Famous for our results.</p>
-                                        <a className="btn btn-primary btn-lg px-4 mr-sm-3 mb-3 mr-0 d-block d-sm-inline-block"
+                                        {/*<a className="btn btn-primary btn-lg px-4 mr-sm-3 mb-3 mr-0 d-block d-sm-inline-block"
                                            href="#features">Selling or Letting?</a>
                                         <a className="btn btn-outline-light btn-lg px-4 mb-3 d-block d-sm-inline-block"
                                            href="#!">Learn
-                                            More</a>
+                                            More</a>*/}
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
+                            {/*<div className="row">
                                 <div className="col">
                                     <form className="rounded-3 p-4 p-sm-5 mt-5">
                                         <div className="col align-self-center">
@@ -44,7 +44,7 @@ function Home() {
                                                     updates.
                                                 </div>
                                             </div>
-                                            <div className="ml-xl-4 mb-3">
+                                            {/*<div className="ml-xl-4 mb-3">
                                                 <InputGroup className="mb-3">
                                                     <FormControl
                                                         placeholder="Email address..."
@@ -65,7 +65,7 @@ function Home() {
                                         </div>
                                     </form>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
