@@ -38,7 +38,7 @@ class App extends React.Component {
                     <Route path="/commercialmanagement" exact component={CommercialManagement}/>
                     <Route path="/residentialmanagement" exact component={ResidentialManagement}/>
                     <Route path="/propertymanagement" exact component={PropertyManagement}/>
-                    <Route path="/login" exact component={Login}/>
+                    {/*<Route path="/login" exact component={Login}/>*/}
                     <Route path="/register" exact component={Register}/>
                 </main>
                 <Footer/>
